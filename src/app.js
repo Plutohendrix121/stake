@@ -310,7 +310,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         // document.querySelector("#vert-click").click();
       });
-    }, 1000);
+    }, (Math.floor(Math.random() * (10 - 5 + 1)) + 5) * 1000);
   }
 
   // Initial render of all icons
