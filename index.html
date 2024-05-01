@@ -1,0 +1,2854 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="./css/style-v4.e80067469eac.css"
+    />
+    <!-- href="https://storage.googleapis.com/static-webapp-220401-prod/static/css/style-v4.e80067469eac.css" -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.a348381cd490.png"
+    />
+    <!-- href="https://storage.googleapis.com/static-webapp-220401-prod/static/i/fav/apple-touch-icon.a348381cd490.png" -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.bbec3ad5d0d0.png"
+    />
+    <!-- href="https://storage.googleapis.com/static-webapp-220401-prod/static/i/fav/favicon-32x32.bbec3ad5d0d0.png" -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.6d35ef5acfb2.png"
+    />
+    <!-- href="https://storage.googleapis.com/static-webapp-220401-prod/static/i/fav/favicon-16x16.6d35ef5acfb2.png" -->
+    <link rel="manifest" href="./site.d7bca03eb860.webmanifest" />
+    <!-- href="https://storage.googleapis.com/static-webapp-220401-prod/static/i/fav/site.d7bca03eb860.webmanifest" -->
+    <link
+      rel="mask-icon"
+      href="./i/fav/safari-pinned-tab.0b2aa68efe55.svg"
+      color="#0c0754"
+    />
+    <!-- href="https://storage.googleapis.com/static-webapp-220401-prod/static/i/fav/safari-pinned-tab.0b2aa68efe55.svg" -->
+    <link rel="shortcut icon" href="./i/fav/favicon.c554d9eff063.ico" />
+    <!-- href="https://storage.googleapis.com/static-webapp-220401-prod/static/i/fav/favicon.c554d9eff063.ico" -->
+    <meta name="apple-mobile-web-app-title" content="Staked" />
+    <meta name="application-name" content="Staked" />
+    <meta name="msapplication-TileColor" content="#f8f8fa" />
+    <meta
+      name="msapplication-config"
+      content="https://storage.googleapis.com/static-webapp-220401-prod/static/i/fav/browserconfig.18847ad04c45.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Staking Rewards for Institutions | Staked</title>
+    <meta
+      name="description"
+      content="Find staking rewards that compound your cryptocurrency investments with Staked, the staking partner of choice for institutions."
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- <script
+      type="text/javascript"
+      async=""
+      src="https://www.google-analytics.com/analytics.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-7SWCP9F1G5&amp;l=dataLayer&amp;cx=c"
+    ></script> -->
+  </head>
+  <body class="">
+    <header class="Top Container">
+      <input id="mobmenu-toggle" type="checkbox" />
+      <a class="Logo" href="/">Staked</a>
+      <label for="mobmenu-toggle" class="Nav-Ham">
+        <span class="Nav-Ham__lines"></span>
+      </label>
+      <nav class="Nav">
+        <ul class="Nav__menu js-top-menu">
+          <li class="Nav__item">
+            <span class="Nav__link Nav__link--dropdown">Who We Serve</span>
+            <ul class="Nav__dropdown-menu Nav-Dropdown">
+              <li class="Nav-Dropdown__item">
+                <a
+                  class="Nav-Dropdown__link"
+                  href="https://staking.staked.us/exchanges-custodians"
+                  target="_blank"
+                >
+                  Exchanges &amp; Custodians
+                </a>
+              </li>
+              <li class="Nav-Dropdown__item">
+                <a
+                  class="Nav-Dropdown__link"
+                  href="https://staking.staked.us/investment-funds"
+                  target="_blank"
+                >
+                  Investment Funds
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="Nav__item">
+            <a class="Nav__link" href="/rewards/">Rewards</a>
+          </li>
+          <li class="Nav__item">
+            <a
+              class="Nav__link"
+              href="https://staking.staked.us/ethereum-staking-options"
+              target="_blank"
+              >Ethereum</a
+            >
+          </li>
+          <li class="Nav__item">
+            <a
+              class="Nav__link"
+              href="https://staking.staked.us/state-of-staking"
+              >Research</a
+            >
+          </li>
+          <li class="Nav__item">
+            <a class="Nav__link" href="https://staked.zendesk.com/hc/"
+              >Support</a
+            >
+          </li>
+          <li class="Nav__pipe"></li>
+          <li class="Nav__item">
+            <a class="Nav__link Nav__link--auth modal-open" href="/v/login/">Login</a>
+          </li>
+          <li class="Nav__item">
+            <a class="Btn modal-open" href="/v/register/">Create Account</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="Hero Tokens-Background">
+      <div class="Hero__content Container">
+        <h1 class="Hero__header Header">Staking Rewards</h1>
+        <p>
+          Institutions can earn staking rewards on a broad range of
+          proof-of-stake cryptoassets
+        </p>
+      </div>
+    </section>
+    <section class="Yields Container">
+      <div class="Yields__content">
+        <div class="Yields__table YT js-yields-table visible" id="staking">
+          <div class="YT__row YT__header js-yields-table-header">
+            <div class="YT__cell YT__cell--p js-sortable">Project</div>
+            <div class="YT__cell YT__cell--ny js-sortable" data-sort="reverse">
+              <span class="Hint Hint--wide">
+                Reward %
+                <div class="Hint__content">
+                  <b>Reward %:</b> The total number of tokens earned if staked
+                  at the current time, expressed as the annual percentage
+                  increase of staked tokens. This is a gross value, and does not
+                  include Staked's commission. The Reward % is variable and
+                  changes with every block based on the Inflation %, Transaction
+                  Fee Rewards and the Staked % for each protocol.
+                </div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--sp js-sortable" data-sort="reverse">
+              <span class="Hint Hint--wide">
+                Staked %
+                <div class="Hint__content">
+                  <b>Staked %:</b> The total number of tokens staked as a
+                  percentage of the network's total supply of tokens. Total
+                  supply is used instead of circulating supply because unvested
+                  tokens can often stake and earn rewards. The Staked % is
+                  important because only staked tokens earn staking rewards.
+                </div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--ip js-sortable">
+              <span class="Hint Hint--wide">
+                Inflation %
+                <div class="Hint__content">
+                  <b>Inflation %:</b> The number of new tokens issued, expressed
+                  as the annual percentage increase of the network's total
+                  supply of tokens. Inflation and transaction fees are the main
+                  sources for staking rewards.
+                </div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--lu">Lock-Up</div>
+            <div
+              class="YT__cell YT__cell--mc sorting-asc js-sortable"
+              data-sort="reverse"
+            >
+              Market<br />Cap ($)
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="ETH2.0">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/ethereum-staking-options"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M32 56 16 32 32 8l16 24-16 24Z"
+                      stroke="currentColor"
+                    ></path>
+                    <path
+                      d="m16 32 16 8 16-8M32 8v48"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  ETH2.0
+                  <span class="Coin__abbr">ETH2</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="3.61">
+              3.6 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="26.06">
+              26.1%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="0.73">0.7%</div>
+            <div class="YT__cell YT__cell--lu">~17 days</div>
+            <div
+              class="YT__cell YT__cell--mc"
+              data-sort-value="391196541476.40"
+            >
+              <span class="Hint">
+                391.20<span>B</span>
+                <div class="Hint__content">391,196,541,476.40</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/ethereum-staking-options"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Solana">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/solana-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                  >
+                    <path
+                      d="M49.7 21.27a1.57 1.57 0 0 1-1.12.47H9A1.6 1.6 0 0 1 7.85 19l6.5-6.73a1.57 1.57 0 0 1 1.13-.48h39.74a1.6 1.6 0 0 1 1.12 2.73Zm0 30.05a1.59 1.59 0 0 1-1.12.46H9a1.56 1.56 0 0 1-1.13-2.65l6.5-6.56a1.59 1.59 0 0 1 1.13-.47h39.72a1.56 1.56 0 0 1 1.12 2.66ZM48.58 27a1.59 1.59 0 0 1 1.12.46L56.34 34a1.56 1.56 0 0 1-1.12 2.66H15.47a1.59 1.59 0 0 1-1.13-.47l-6.5-6.56A1.56 1.56 0 0 1 9 27h39.6Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Solana
+                  <span class="Coin__abbr">SOL</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="7.08">
+              7.1 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="64.63">
+              64.6%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="4.57">4.6%</div>
+            <div class="YT__cell YT__cell--lu">2 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="68835684065.62">
+              <span class="Hint">
+                68.84<span>B</span>
+                <div class="Hint__content">68,835,684,065.62</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Distributed on-chain after every epoch (2 days).
+                  </div>
+                  <div class="Hint__p">
+                    <b class="Hint__header">Slashing</b>
+                    Currently disabled.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/solana-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Cardano">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/cardano-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.84 28.414a3.515 3.515 0 1 0-3.515-3.515 3.525 3.525 0 0 0 3.515 3.515ZM32.552 24.873a3.515 3.515 0 1 0 3.515-3.515 3.525 3.525 0 0 0-3.515 3.515ZM40.197 28.476a3.515 3.515 0 1 0 3.515 3.514 3.525 3.525 0 0 0-3.515-3.514ZM39.615 39.117a3.515 3.515 0 0 0-7.03 0 3.515 3.515 0 0 0 7.03 0ZM31.387 39.148a3.515 3.515 0 1 0-3.515 3.515 3.525 3.525 0 0 0 3.515-3.515ZM23.727 28.509a3.515 3.515 0 0 0 0 7.03 3.515 3.515 0 0 0 0-7.03Z"
+                      stroke="currentColor"
+                    ></path>
+                    <circle
+                      cx="19.779"
+                      cy="39.098"
+                      r="2.079"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="31.859"
+                      cy="46.112"
+                      r="2.079"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="44.21"
+                      cy="39.032"
+                      r="2.079"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="44.179"
+                      cy="24.929"
+                      r="2.079"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="31.935"
+                      cy="17.87"
+                      r="2.079"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="19.762"
+                      cy="24.958"
+                      r="2.079"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="13.678"
+                      cy="32.041"
+                      r="1.765"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="22.83"
+                      cy="47.871"
+                      r="1.765"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="41.165"
+                      cy="47.834"
+                      r="1.765"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="50.25"
+                      cy="31.95"
+                      r="1.765"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="41.09"
+                      cy="16.169"
+                      r="1.765"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="22.792"
+                      cy="16.173"
+                      r="1.765"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="12.443"
+                      cy="20.773"
+                      r="1.455"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="12.491"
+                      cy="43.319"
+                      r="1.455"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="31.859"
+                      cy="54.543"
+                      r="1.455"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="51.49"
+                      cy="43.233"
+                      r="1.455"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="51.464"
+                      cy="20.701"
+                      r="1.455"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="31.925"
+                      cy="9.461"
+                      r="1.455"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="19.572"
+                      cy="53.53"
+                      r="1.156"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="44.433"
+                      cy="53.431"
+                      r="1.156"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="56.805"
+                      cy="31.942"
+                      r="1.156"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="44.362"
+                      cy="10.483"
+                      r="1.156"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="19.516"
+                      cy="10.542"
+                      r="1.156"
+                      stroke="currentColor"
+                    ></circle>
+                    <circle
+                      cx="7.146"
+                      cy="32.06"
+                      r="1.156"
+                      stroke="currentColor"
+                    ></circle>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Cardano
+                  <span class="Coin__abbr">ADA</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="3.18">
+              3.2 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="50.36">
+              50.4%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="1.60">1.6%</div>
+            <div class="YT__cell YT__cell--lu">No Lock-Up</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="17302336703.19">
+              <span class="Hint">
+                17.30<span>B</span>
+                <div class="Hint__content">17,302,336,703.19</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Issued at the protocol level each epoch, or every ~ 5 days.
+                  </div>
+                  <div class="Hint__p">
+                    <b class="Hint__header">Slashing</b>
+                    No slashing. Rewards are adjusted for performance.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/cardano-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Avalanche">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/avalanche-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                  >
+                    <path
+                      d="M23.321 48.248h-7.477c-1.773 0-2.659 0-3.19-.343a2.143 2.143 0 0 1-.974-1.675c-.035-.631.404-1.4 1.282-2.938l16.369-28.674c.891-1.56 1.337-2.34 1.904-2.631a2.144 2.144 0 0 1 1.951-.001c.567.289 1.014 1.069 1.907 2.629l3.775 6.59c.65 1.134.975 1.701 1.117 2.299.155.651.156 1.33.001 1.981-.142.598-.466 1.165-1.115 2.3l-9.789 17.122c-.657 1.151-.987 1.726-1.438 2.157a4.287 4.287 0 0 1-1.735 1.007c-.598.177-1.262.177-2.588.177zm26.672.001h-8.668c-1.788 0-2.683 0-3.215-.347a2.137 2.137 0 0 1-.97-1.686c-.032-.633.418-1.405 1.318-2.949l4.328-7.423c.888-1.525 1.333-2.287 1.896-2.573a2.145 2.145 0 0 1 1.935-.001c.564.285 1.009 1.046 1.9 2.57l4.341 7.422c.904 1.545 1.356 2.318 1.325 2.952a2.142 2.142 0 0 1-.97 1.688c-.532.347-1.428.347-3.22.347z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Avalanche
+                  <span class="Coin__abbr">AVAX</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="7.60">
+              7.6 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="56.70">
+              56.7%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="4.31">4.3%</div>
+            <div class="YT__cell YT__cell--lu">14 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="14448112671.72">
+              <span class="Hint">
+                14.45<span>B</span>
+                <div class="Hint__content">14,448,112,671.72</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/avalanche-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Polkadot">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/polkadot-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.892 11A15.952 15.952 0 0 0 16 26.892c0 1.755.283 3.5.837 5.164a2.273 2.273 0 0 0 2.792 1.396 2.263 2.263 0 0 0 1.356-2.791 10.41 10.41 0 0 1-.618-4.048A11.466 11.466 0 1 1 32.52 38.397s-2.223.14-3.34.28c-.41.057-.815.137-1.216.239a.15.15 0 0 1-.21-.21l.35-1.884 2.093-9.481a2.176 2.176 0 1 0-4.257-.908s-4.985 23.15-4.985 23.36a2.114 2.114 0 0 0 1.665 2.582 2.122 2.122 0 0 0 2.582-1.675c.07-.28.698-3.35.698-3.35a5.643 5.643 0 0 1 4.676-4.446c.479-.07 2.502-.21 2.502-.21A15.882 15.882 0 0 0 31.892 11ZM34.906 47.701a2.664 2.664 0 0 0-3.14 2.094 2.633 2.633 0 0 0 2.093 3.14 2.593 2.593 0 0 0 3.13-2.093 2.751 2.751 0 0 0-2.083-3.14Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Polkadot
+                  <span class="Coin__abbr">DOT</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="14.78">
+              14.8 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="52.33">
+              52.3%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="7.73">7.7%</div>
+            <div class="YT__cell YT__cell--lu">28 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="9820374010.00">
+              <span class="Hint">
+                9.82<span>B</span>
+                <div class="Hint__content">9,820,374,010.00</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Paid at end of each era (~24 hours) and automatically
+                    re-staked.
+                  </div>
+                  <div class="Hint__p">
+                    <b class="Hint__header">Slashing</b>
+                    Assessed for availability and double signing.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/polkadot-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="TRON">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/tron-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m8 8 24 20M8 8l36 8 12 8-28 32L8 8Zm24 20 12-12-12 12Zm-4 28 4-28-4 28Zm28-32-24 4 24-4Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  TRON
+                  <span class="Coin__abbr">TRX</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="4.01">
+              4.0 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="52.36">
+              52.4%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="-3.44">
+              -3.4%
+            </div>
+            <div class="YT__cell YT__cell--lu">3 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="9633279363.07">
+              <span class="Hint">
+                9.63<span>B</span>
+                <div class="Hint__content">9,633,279,363.07</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/tron-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Near">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/near-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                  >
+                    <path
+                      d="m45.821 10.766-9.615 14.276a1.022 1.022 0 0 0 1.517 1.341l9.466-8.21a.383.383 0 0 1 .639.291v25.703a.383.383 0 0 1-.678.246L18.54 10.165a4.903 4.903 0 0 0-3.74-1.734h-1a4.9 4.9 0 0 0-4.9 4.9v36.2a4.902 4.902 0 0 0 9.079 2.564l9.615-14.276a1.022 1.022 0 0 0-1.517-1.341l-9.466 8.21a.383.383 0 0 1-.639-.291v-25.71a.383.383 0 0 1 .678-.245l28.606 34.254a4.903 4.903 0 0 0 3.74 1.735h1a4.9 4.9 0 0 0 4.904-4.9v-36.2a4.902 4.902 0 0 0-9.079-2.565Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Near
+                  <span class="Coin__abbr">NEAR</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="9.50">
+              9.5 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="46.40">
+              46.4%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="4.41">4.4%</div>
+            <div class="YT__cell YT__cell--lu">36 hours</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="7501176256.64">
+              <span class="Hint">
+                7.50<span>B</span>
+                <div class="Hint__content">7,501,176,256.64</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Distributed after each epoch (12 hours) and automatically
+                    re-staked.
+                  </div>
+                  <div class="Hint__p">
+                    <b class="Hint__header">Slashing</b>
+                    Progressive for 2x and 100% for equivocation. No
+                    availability slashing.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/near-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Polygon">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/matic-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                  >
+                    <path
+                      d="M31.522 39.749v5.055c0 .437.209.843.609 1.062l11.279 6.586c.409.233.912.233 1.322-.001l10.871-6.585c.401-.219.609-.625.609-1.062V32.193c0-.437-.208-.843-.609-1.062l-10.522-6.22c-.386-.231-.885-.191-1.309.037l-23.62 13.928c-.425.228-.924.268-1.309.037L8.32 32.692c-.4-.219-.609-.625-.609-1.062V19.02c0-.437.209-.844.609-1.062l10.872-6.586a1.338 1.338 0 0 1 1.322-.001l11.279 6.587c.4.218.609.625.609 1.062v5.055"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Polygon
+                  <span class="Coin__abbr">MATIC</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="5.23">
+              5.2 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="36.24">
+              36.2%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="1.89">1.9%</div>
+            <div class="YT__cell YT__cell--lu">2-3 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="6776548803.18">
+              <span class="Hint">
+                6.78<span>B</span>
+                <div class="Hint__content">6,776,548,803.18</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Distributed on-chain every 20 minutes.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/matic-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Aptos">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/aptos-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.113 45.87c1.006.01 4.828.015 5.833.024 1.006.01 2.58-3.314 3.897-3.314 1.506 0 2.916 3.198 4.418 3.314.36.028.926 0 .926 0H51.78m-43.515-8.71c1.005.009 14.353.014 15.358.024 1.006.01 2.581-3.315 3.897-3.315 1.506 0 2.917 3.198 4.418 3.315.36.028.927 0 .927 0h22.743m-47.551-9.47c1.006.01 21.178.015 22.183.025 1.006.01 2.581-3.315 3.897-3.315 1.506 0 2.917 3.198 4.418 3.315.36.028.926 0 .926 0h16.458m-44.263-9.194c1.005.01 23.898.015 24.904.024 1.005.01 2.58-3.314 3.896-3.314 1.506 0 2.917 3.198 4.418 3.314.361.028.927 0 .927 0h6.411M56.361 32c0 13.455-10.906 24.362-24.36 24.362C18.544 56.362 7.637 45.455 7.637 32 7.638 18.545 18.545 7.638 32 7.638c13.455 0 24.362 10.907 24.362 24.362Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Aptos
+                  <span class="Coin__abbr">APT</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="7.25">
+              7.3 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="79.42">
+              79.4%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="5.76">5.8%</div>
+            <div class="YT__cell YT__cell--lu">~30 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="4087076499.66">
+              <span class="Hint">
+                4.09<span>B</span>
+                <div class="Hint__content">4,087,076,499.66</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/aptos-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Cosmos">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/cosmos-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M32 56c4.418 0 8-10.745 8-24S36.418 8 32 8s-8 10.745-8 24 3.582 24 8 24Z"
+                      stroke="currentColor"
+                    ></path>
+                    <path
+                      d="M52.788 43.998c2.209-3.827-5.306-12.301-16.785-18.929-11.48-6.627-22.576-8.898-24.785-5.071-2.209 3.826 5.306 12.3 16.785 18.928 11.479 6.627 22.575 8.898 24.785 5.072Z"
+                      stroke="currentColor"
+                    ></path>
+                    <path
+                      d="M36.003 38.93c11.479-6.627 18.994-15.101 16.785-18.928-2.21-3.826-13.306-1.555-24.785 5.072-11.48 6.628-18.994 15.102-16.785 18.928 2.21 3.827 13.306 1.556 24.785-5.071Z"
+                      stroke="currentColor"
+                    ></path>
+                    <path
+                      d="M32 34a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Cosmos
+                  <span class="Coin__abbr">ATOM</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="14.25">
+              14.3 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="63.17">
+              63.2%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="10.00">
+              10.0%
+            </div>
+            <div class="YT__cell YT__cell--lu">21 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="3383361284.20">
+              <span class="Hint">
+                3.38<span>B</span>
+                <div class="Hint__content">3,383,361,284.20</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Need to be claimed and re-delegated manually.
+                  </div>
+                  <div class="Hint__p">
+                    <b class="Hint__header">Slashing</b>
+                    .01% for availability. 5% for double signing.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/cosmos-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Graph">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/graph-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                  >
+                    <path
+                      d="M29 34a12 12 0 1 1 12-12 12 12 0 0 1-12 12Zm0-30a18 18 0 1 1-18 18A18 18 0 0 1 29 4Zm17.121 36.878a3 3 0 0 1 0 4.243l-12 12a3 3 0 0 1-4.243-4.242l12-12a3 3 0 0 1 4.243 0ZM53 7a3 3 0 1 1-3-3 3 3 0 0 1 3 3Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Graph
+                  <span class="Coin__abbr">GRT</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="5.76">
+              5.8 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="51.25">
+              51.2%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="2.95">3.0%</div>
+            <div class="YT__cell YT__cell--lu">28 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="2749952683.69">
+              <span class="Hint">
+                2.75<span>B</span>
+                <div class="Hint__content">2,749,952,683.69</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/graph-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Celestia">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/celestia-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 65 65"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M32.201 19.612c-1.26 3.643-2.013 8.269-2.013 13.303 0 4.29 1.52 11.409 1.487 11.621-.032.213-.755.419-.993.417-.24 0-2.687-1.181-4.022-1.91a38.3 38.3 0 0 1-5.828-3.9m12.173-21.57c1.646-3.666 3.88-5.918 6.34-5.918 5.057 0 9.156 9.518 9.156 21.26s-4.1 21.261-9.157 21.261c-2.854 0-5.403-3.032-7.082-7.784m-11.43-7.248c-7.168-5.84-10.59-13.29-7.82-18.362 3.44-6.3 15.128-6.55 26.105-.555 2.538 1.385 6.642 4.48 6.776 4.7.134.22.3 1.069.182 1.252-.118.182-8.878 2.672-13.96 5.37m-11.283 7.595a.644.644 0 0 1-.012.01m.012-.01c2.48-2.178 5.695-4.448 9.387-6.552m3.172 13.341c8.672 2.75 16.636 1.57 19.374-3.446 1.469-2.689 1.197-6.046-.45-9.477M33.39 45.933a.112.112 0 0 0-.005-.001m.005.001a69.9 69.9 0 0 0 4.818-2.354c6.258-3.358 11.332-7.256 14.106-10.569M33.39 45.933C24.65 49.79 17.18 50.79 15.688 48.01c-.919-1.714.614-4.525 3.81-7.636m28.62-13.306c1.816 1.928 3.239 3.948 4.197 5.942m0 0c1.958-2.338 2.77-4.385 2.04-5.743-.764-1.426-3.102-1.857-6.379-1.419m7.122 6.92c0 12.596-10.21 22.806-22.805 22.806-12.595 0-22.805-10.21-22.805-22.805 0-12.595 10.21-22.805 22.805-22.805 12.595 0 22.805 10.21 22.805 22.805Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Celestia
+                  <span class="Coin__abbr">TIA</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="11.26">
+              11.3 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="67.04">
+              67.0%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="8.00">8.0%</div>
+            <div class="YT__cell YT__cell--lu">21 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="2079986514.60">
+              <span class="Hint">
+                2.08<span>B</span>
+                <div class="Hint__content">2,079,986,514.60</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/celestia-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Sei">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/sei-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.87 22.878s1.95-2.049 3.37-3.404c1.421-1.354 4.516-3.749 6.947-3.947 4.475-.366 6.176 4.716 10.663 4.575 3.172-.099 4.263-2.071 6.542-3.238 1.32-.675 3.09-1.349 3.09-1.349m-2.358 20.45s-2.12-1.854-3.609-3.209c-1.488-1.354-4.73-3.749-7.276-3.948-4.687-.365-8.74 5.748-13.44 5.607-3.322-.099-5.5-2.725-7.55-4.1-2.228-1.494-7.225.825-7.225.825M51.3 46.183s-2.47-2.313-6.234-2.34c-3.765-.028-5.386 4.037-9.317 3.874-5.304-.22-5.832-4.78-10.828-5.112-2.185-.145-4.865 1.96-6.881 3.647-1.705 1.426-2.922 2.505-2.922 2.505M56.049 32c0 13.282-10.767 24.05-24.049 24.05S7.95 45.281 7.95 32 18.719 7.95 32 7.95 56.05 18.719 56.05 32Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Sei
+                  <span class="Coin__abbr">SEI</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="4.24">
+              4.2 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="67.09">
+              67.1%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="2.85">2.9%</div>
+            <div class="YT__cell YT__cell--lu">21 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="1736000000.00">
+              <span class="Hint">
+                1.74<span>B</span>
+                <div class="Hint__content">1,736,000,000.00</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/sei-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="SUI">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/sui-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g stroke="currentColor">
+                      <path
+                        d="M16.375 49.156A17.957 17.957 0 0 0 32 58.284c6.466 0 12.45-3.496 15.625-9.128a18.276 18.276 0 0 0 0-18.256L33.882 6.815a2.162 2.162 0 0 0-3.764 0L16.375 30.9a18.276 18.276 0 0 0 0 18.256Z"
+                      ></path>
+                      <path
+                        d="M25.582 14.755c-1.654 3.818-1.914 8.377-.904 11.592 1.01 3.214 4.206 6.013 7.322 7.694 4.393 2.37 9.022 3.399 11.455 8.088 2.207 4.25.436 10.02-3.817 14.336"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  SUI
+                  <span class="Coin__abbr">SUI</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="3.24">
+              3.2 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="83.10">
+              83.1%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="2.69">2.7%</div>
+            <div class="YT__cell YT__cell--lu">No Lock-Up</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="1684671909.70">
+              <span class="Hint">
+                1.68<span>B</span>
+                <div class="Hint__content">1,684,671,909.70</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/sui-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Flow">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/flow-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                  >
+                    <circle
+                      cx="31.776"
+                      cy="32"
+                      r="23.625"
+                      stroke="currentColor"
+                    ></circle>
+                    <path
+                      stroke="currentColor"
+                      d="M35.471 28.305h6.672v6.672h-6.672zM28.804 37.476a2.504 2.504 0 1 1-2.504-2.504h2.504v-6.667H26.3a9.171 9.171 0 1 0 9.17 9.171v-2.504h-6.666v2.504ZM37.975 24.97h7.503v-6.672h-7.503a9.18 9.18 0 0 0-9.171 9.17v.837h6.667v-.836a2.504 2.504 0 0 1 2.504-2.5Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Flow
+                  <span class="Coin__abbr">FLOW</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="9.80">
+              9.8 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="49.77">
+              49.8%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="4.88">4.9%</div>
+            <div class="YT__cell YT__cell--lu">7 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="1469086831.10">
+              <span class="Hint">
+                1.47<span>B</span>
+                <div class="Hint__content">1,469,086,831.10</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/flow-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="MultiversX">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/multiversx-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m34.47 31.979 20.456-10.918-3.435-6.577L32.75 22.03a1.996 1.996 0 0 1-1.502 0l-18.74-7.547-3.446 6.598L29.518 32 9.062 42.918l3.447 6.598 18.74-7.605a1.995 1.995 0 0 1 1.5 0l18.742 7.569 3.447-6.599L34.47 31.98Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  MultiversX
+                  <span class="Coin__abbr">EGLD</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="7.88">
+              7.9 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="63.64">
+              63.6%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="5.02">5.0%</div>
+            <div class="YT__cell YT__cell--lu">10 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="1171276507.80">
+              <span class="Hint">
+                1.17<span>B</span>
+                <div class="Hint__content">1,171,276,507.80</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/multiversx-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Tezos">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/tezos-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.65 18.73h32.7L33.88 35.59a4.47 4.47 0 0 1 3.06-2c7.86-.75 11.24 5 11.24 11.22a11.24 11.24 0 0 1-20.07 6.92M24 40a6 6 0 1 0 12 0"
+                      stroke="currentColor"
+                    ></path>
+                    <path d="m20 8 4 4v28" stroke="currentColor"></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Tezos
+                  <span class="Coin__abbr">XTZ</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="6.17">
+              6.2 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="71.45">
+              71.4%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="4.62">4.6%</div>
+            <div class="YT__cell YT__cell--lu">No Lock-Up</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="1028326337.85">
+              <span class="Hint">
+                1.03<span>B</span>
+                <div class="Hint__content">1,028,326,337.85</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Issued every cycle = 4096 blocks or ~ 3 days to validator.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/tezos-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Mina">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/mina-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                  >
+                    <path
+                      d="m12.761 48.95 4.169.005s.019-32.148.059-32.387c.076-.449.338-2.028 2.142-2.103 1.804-.076 2.234 1.25 2.426 1.821.153.457 3.089 23.571 3.164 23.805.043.133 1.04 4.959 7.009 5.082 5.968.122 7.422-4.648 7.526-4.93.177-.482 3.128-23.801 3.156-23.926.608-2.7 4.457-2.267 4.62.192.002.025.056 32.413.056 32.413l4.151-.016s-.047-24.47-.058-24.583c-.505-5.246-6.137-6.932-10.109-5.301-2.151.883-3.725 2.843-3.939 5.498-.011.13-2.881 22.691-2.897 22.783-.539 3.221-4.322 2.737-4.523-.018-.011-.148-2.651-21.821-2.803-22.502-.216-.971-.407-1.611-.439-1.737-.211-.812-.874-1.916-1.447-2.528-1.455-1.552-3.542-2.13-5.63-2.061-2.115.069-3.989.853-5.312 2.452-.597.721-1.17 2.005-1.224 2.934-.051.874-.07 2.165-.068 3.803.007 7.521-.029 21.304-.029 21.304z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Mina
+                  <span class="Coin__abbr">MINA</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="15.69">
+              15.7 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="66.78">
+              66.8%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="10.48">
+              10.5%
+            </div>
+            <div class="YT__cell YT__cell--lu">No Lock-Up</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="1004734200.64">
+              <span class="Hint">
+                1.00<span>B</span>
+                <div class="Hint__content">1,004,734,200.64</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Slashing</b>
+                    No Slashing
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/mina-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Kava">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/kava-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke="currentColor"
+                      d="M12 10h6v43h-6zM18 10l13 16.923m-13-6L26.87 32M18 42.872 26.976 32M31 37.362 18 53M44.284 10 27 31.5 42.74 53H52L34.87 31.5 52 10h-7.716Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Kava
+                  <span class="Coin__abbr">KAVA</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="7.18">
+              7.2 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="12.86">
+              12.9%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="">---</div>
+            <div class="YT__cell YT__cell--lu">21 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="822974072.72">
+              <span class="Hint">
+                822.97<span>M</span>
+                <div class="Hint__content">822,974,072.72</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Need to be claimed and re-delegated manually.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/kava-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Dymension">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/dymension-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 65 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.04 38.094c-1.123-1.119-1.876-2.412-2.26-3.877a8.856 8.856 0 0 1 0-4.424c.384-1.483 1.132-2.78 2.246-3.89 1.131-1.128 2.436-1.88 3.915-2.252a8.933 8.933 0 0 1 4.437 0c1.479.373 2.78 1.119 3.902 2.238l2.78 2.772 4.116-4.104-2.78-2.772c-1.122-1.119-1.875-2.411-2.258-3.877a8.908 8.908 0 0 1-.014-4.41c.375-1.475 1.127-2.776 2.259-3.904 1.122-1.12 2.423-1.866 3.902-2.239a8.78 8.78 0 0 1 4.423.014c1.48.373 2.78 1.119 3.903 2.238 1.122 1.12 1.87 2.416 2.245 3.89a8.703 8.703 0 0 1 .013 4.411c-.365 1.483-1.11 2.785-2.232 3.904l-2.766 2.758 4.103 4.09 2.766-2.757c1.122-1.12 2.419-1.87 3.889-2.252a8.78 8.78 0 0 1 4.423.013c1.479.373 2.784 1.124 3.916 2.252 1.122 1.12 1.87 2.416 2.245 3.89a8.553 8.553 0 0 1 0 4.397c-.374 1.475-1.123 2.772-2.245 3.891-1.132 1.128-2.437 1.879-3.916 2.252a8.987 8.987 0 0 1-4.423-.013c-1.461-.373-2.753-1.12-3.876-2.239l-2.766-2.758-4.116 4.104 2.766 2.758c1.123 1.12 1.867 2.412 2.232 3.877a8.859 8.859 0 0 1 0 4.424c-.374 1.474-1.127 2.776-2.258 3.904-1.114 1.11-2.415 1.857-3.903 2.238a8.933 8.933 0 0 1-4.436 0c-1.461-.373-2.753-1.119-3.876-2.238-1.131-1.128-1.889-2.425-2.272-3.89a8.859 8.859 0 0 1 0-4.424c.392-1.475 1.145-2.767 2.259-3.878l2.793-2.785-4.103-4.09-2.793 2.785a8.3 8.3 0 0 1-3.915 2.225 8.935 8.935 0 0 1-4.437 0c-1.47-.382-2.766-1.133-3.889-2.252Zm3.34-3.33a3.77 3.77 0 0 0 1.764 1.012c.677.177 1.35.182 2.018.013a3.77 3.77 0 0 0 1.764-1.013l2.793-2.784-2.78-2.772a3.671 3.671 0 0 0-1.777-.999 4.03 4.03 0 0 0-2.005 0c-.668.169-1.26.51-1.777 1.026a3.863 3.863 0 0 0-1.029 1.745 3.996 3.996 0 0 0 0 1.999 3.855 3.855 0 0 0 1.029 1.772Zm16.357-16.31 2.78 2.772 2.766-2.758c.517-.515.855-1.102 1.016-1.76a3.95 3.95 0 0 0-.014-2.011 3.754 3.754 0 0 0-1.015-1.759 3.77 3.77 0 0 0-1.764-1.013 4.03 4.03 0 0 0-2.005 0c-.66.16-1.247.498-1.764 1.013a3.965 3.965 0 0 0-1.042 1.759 3.996 3.996 0 0 0 0 1.999 3.965 3.965 0 0 0 1.042 1.758Zm12.808 13.551 2.767 2.758a3.877 3.877 0 0 0 1.75 1.026c.668.169 2.115.164 2.774-.013a3.806 3.806 0 0 0 1.777-1.026c.517-.516.856-1.102 1.016-1.759.178-.657.183-1.32.013-1.985a3.756 3.756 0 0 0-1.015-1.76 3.807 3.807 0 0 0-1.778-1.025c-.668-.169-2.119-.169-2.787 0-.65.169-1.234.51-1.75 1.026l-2.767 2.758ZM29.737 51.072a3.772 3.772 0 0 0 1.764 1.012 3.879 3.879 0 0 0 1.991-.013 3.77 3.77 0 0 0 1.764-1.012 3.789 3.789 0 0 0 1.03-1.773c.178-.657.182-1.319.013-1.985a3.657 3.657 0 0 0-1.003-1.772l-2.766-2.758-2.793 2.785a3.86 3.86 0 0 0-1.029 1.745 3.996 3.996 0 0 0 0 1.999 3.79 3.79 0 0 0 1.029 1.772Zm-1.323-19.067 4.103 4.09 4.116-4.103-4.103-4.09-4.116 4.103Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Dymension
+                  <span class="Coin__abbr">DYM</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="12.36">
+              12.4 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="57.50">
+              57.5%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="7.11">7.1%</div>
+            <div class="YT__cell YT__cell--lu">21 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="636382689.25">
+              <span class="Hint">
+                636.38<span>M</span>
+                <div class="Hint__content">636,382,689.25</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/dymension-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Helium">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/helium-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                  >
+                    <path
+                      d="M32.015 7.893c13.29 0 24.066 10.775 24.066 24.066 0 13.292-10.775 24.067-24.066 24.067-13.291 0-24.067-10.775-24.067-24.067 0-13.29 10.776-24.066 24.067-24.066zm13.249 10.753a4.154 4.154 0 0 1 0 5.869 4.117 4.117 0 0 1-3.523 1.173.698.698 0 0 0-.183 0 2.137 2.137 0 0 0-2.214 3.018 7.972 7.972 0 0 1-1.593 8.952 7.974 7.974 0 0 1-8.955 1.594 2.118 2.118 0 0 0-1.641-.065 2.13 2.13 0 0 0-1.39 2.157.669.669 0 0 0 0 .212 4.159 4.159 0 0 1-1.158 3.616 4.155 4.155 0 0 1-5.869 0 4.123 4.123 0 0 1-1.215-2.933c0-1.109.432-2.152 1.215-2.934.932-.933 2.217-1.36 3.59-1.172.139.03.28.048.423.048a2.126 2.126 0 0 0 1.996-1.38 2.13 2.13 0 0 0-.057-1.657 7.97 7.97 0 0 1 1.594-8.952 7.97 7.97 0 0 1 8.952-1.594 2.129 2.129 0 0 0 1.637.066 2.13 2.13 0 0 0 1.365-2.4 4.16 4.16 0 0 1 1.159-3.618 4.155 4.155 0 0 1 5.867 0zM28.796 28.704a4.597 4.597 0 1 0 6.501 6.501 4.597 4.597 0 0 0-6.5-6.5z"
+                      stroke="currentColor"
+                      stroke-width="1.60443"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Helium
+                  <span class="Coin__abbr">HNT</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="8.61">
+              8.6 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="36.98">
+              37.0%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="3.19">3.2%</div>
+            <div class="YT__cell YT__cell--lu">~ 5 months</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="631630788.25">
+              <span class="Hint">
+                631.63<span>M</span>
+                <div class="Hint__content">631,630,788.25</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Distributed every epoch (30 minutes) at the protocol level
+                  </div>
+                  <div class="Hint__p">
+                    <b class="Hint__header">Slashing</b>
+                    No slashing
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/helium-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Skale">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/skale-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11 13h34.763v5.562h-29.2v27.81h29.2v5.563H11M11 13v5.562M11 13v38.934M11 13h5.562m0 38.934H11m0 0v-5.562m30.33-9.987c.128.927.38 1.62.757 2.08.688.835 1.868 1.253 3.54 1.253 1 0 1.812-.11 2.436-.33 1.185-.423 1.777-1.208 1.777-2.356 0-.67-.294-1.188-.881-1.556-.588-.358-1.51-.675-2.768-.95l-2.149-.482c-2.111-.477-3.57-.996-4.379-1.556-1.368-.936-2.052-2.4-2.052-4.393 0-1.818.661-3.328 1.983-4.53 1.322-1.203 3.264-1.805 5.825-1.805 2.14 0 3.962.57 5.468 1.708 1.514 1.13 2.309 2.772 2.382 4.93h-4.076c-.074-1.221-.606-2.089-1.598-2.603-.66-.34-1.482-.51-2.465-.51-1.092 0-1.964.221-2.616.662-.652.44-.978 1.055-.978 1.845 0 .725.321 1.267.964 1.625.413.239 1.294.519 2.644.84l3.498.84c1.533.367 2.69.858 3.47 1.474 1.212.954 1.818 2.336 1.818 4.145 0 1.854-.712 3.396-2.135 4.627-1.413 1.22-3.415 1.831-6.004 1.831-2.644 0-4.723-.601-6.238-1.804-1.515-1.212-2.272-2.873-2.272-4.985h4.049Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Skale
+                  <span class="Coin__abbr">SKL</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="10.92">
+              10.9 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="53.69">
+              53.7%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="5.86">5.9%</div>
+            <div class="YT__cell YT__cell--lu">3M, 6M, 12M</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="517914433.70">
+              <span class="Hint">
+                517.91<span>M</span>
+                <div class="Hint__content">517,914,433.70</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Distributed every epoch (1 month) at protocol level.
+                  </div>
+                  <div class="Hint__p">
+                    <b class="Hint__header">Slashing</b>
+                    There are no slashing or bounty reduction penalties for the
+                    initial 3 months of operation. There is no availability
+                    slashing.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/skale-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Livepeer">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/livepeer-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                  >
+                    <rect
+                      x="12.677"
+                      y="11.064"
+                      width="7.494"
+                      height="7.494"
+                      rx=".953"
+                      ry=".953"
+                      stroke="currentColor"
+                    ></rect>
+                    <rect
+                      x="29.069"
+                      y="19.494"
+                      width="7.494"
+                      height="7.494"
+                      rx=".953"
+                      ry=".953"
+                      stroke="currentColor"
+                    ></rect>
+                    <rect
+                      x="29.069"
+                      y="36.823"
+                      width="7.494"
+                      height="7.494"
+                      rx=".953"
+                      ry=".953"
+                      stroke="currentColor"
+                    ></rect>
+                    <rect
+                      x="45.93"
+                      y="28.393"
+                      width="7.494"
+                      height="7.494"
+                      rx=".953"
+                      ry=".953"
+                      stroke="currentColor"
+                    ></rect>
+                    <rect
+                      x="12.677"
+                      y="28.393"
+                      width="7.494"
+                      height="7.494"
+                      rx=".953"
+                      ry=".953"
+                      stroke="currentColor"
+                    ></rect>
+                    <rect
+                      x="12.677"
+                      y="45.722"
+                      width="7.494"
+                      height="7.494"
+                      rx=".953"
+                      ry=".953"
+                      stroke="currentColor"
+                    ></rect>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Livepeer
+                  <span class="Coin__abbr">LPT</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="42.63">
+              42.6 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="41.65">
+              41.6%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="18.69">
+              18.7%
+            </div>
+            <div class="YT__cell YT__cell--lu">7 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="478768020.00">
+              <span class="Hint">
+                478.77<span>M</span>
+                <div class="Hint__content">478,768,020.00</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Issued every round (daily) at the protocol level.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/livepeer-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Moonbeam">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/moonbeam-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 65"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-miterlimit: 1.5;
+                    "
+                  >
+                    <path
+                      d="M55.211 25.663c0-9.93-8.061-17.992-17.991-17.992s-17.992 8.062-17.992 17.992c0 .259.069.598.289.812.121.117.312.213.426.219.017 0 34.155.01 34.288.007.238-.007.513-.006.738-.28.188-.23.242-.482.242-.758ZM13.183 30.989h.018M4.767 36.004h.018M13.241 40.969h.018M6.944 45.974h.018M31.808 50.935h.018M20.375 55.95h.018M15.965 30.962l42.53.028M7.46 35.999h31.564M15.965 40.954h37.706M9.674 45.965H25.32M28.443 45.958l31.465.007M34.5 50.979h19.814M23.09 55.95h19.932"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Moonbeam
+                  <span class="Coin__abbr">GLMR</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="9.91">
+              9.9 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="35.31">
+              35.3%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="5.00">5.0%</div>
+            <div class="YT__cell YT__cell--lu">~7 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="291658938.38">
+              <span class="Hint">
+                291.66<span>M</span>
+                <div class="Hint__content">291,658,938.38</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Reward Payout Delay: 2 rounds (~ 12 hours)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/moonbeam-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Kusama">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/kusama-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M54.084 18.347a6.058 6.058 0 0 0-3.227-1.58c-1.512-.197-3.04.813-4.078 1.478-1.038.666-3.001 2.634-3.82 3.199-.817.564-2.887 1.128-6.204 3.147-3.317 2.02-16.454 10.413-16.454 10.413l3.384.04-15.19 7.88h1.517l-2.189 1.692c1.21.285 2.482.1 3.56-.519v.468S29.49 37.43 32.998 39.28l-2.126.626c.186 0 3.632.22 3.632.22a4.857 4.857 0 0 0 2.195 3.503c2.075 1.37 2.11 2.115 2.11 2.115s-1.072.446-1.072.999a9.815 9.815 0 0 1 5.855 0s-.113-.593-1.557-.999-2.854-1.963-3.56-2.82a3.98 3.98 0 0 1-.564-3.892c.502-1.292 2.257-2.003 5.816-3.853 4.225-2.183 5.19-3.819 5.782-5.077.592-1.258 1.483-3.78 1.974-4.964a6.504 6.504 0 0 1 2.03-2.82C54.147 21.838 57 20.76 57 20.76s-2.177-1.861-2.888-2.414"
+                      stroke="currentColor"
+                      stroke-width=".953"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Kusama
+                  <span class="Coin__abbr">KSM</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="11.11">
+              11.1 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="51.18">
+              51.2%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="5.69">5.7%</div>
+            <div class="YT__cell YT__cell--lu">8 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="280089256.62">
+              <span class="Hint">
+                280.09<span>M</span>
+                <div class="Hint__content">280,089,256.62</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/kusama-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Audius">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/audius-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                  >
+                    <path
+                      d="M24.35 41.6H15a1 1 0 0 1-.9-1.56L31 11.14a1 1 0 0 1 1.8 0L56 51.81a1 1 0 0 1-.91 1.56H22.33a1 1 0 0 1-.9-1.56L26.09 44a1 1 0 0 1 .9-.52h10.86a1 1 0 0 0 .91-1.56l-6-10.52a1 1 0 0 0-1.8 0l-5.77 9.7a1 1 0 0 1-.84.5Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Audius
+                  <span class="Coin__abbr">AUDIO</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="18.55">
+              18.6 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="28.04">
+              28.0%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="5.20">5.2%</div>
+            <div class="YT__cell YT__cell--lu">7 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="242034970.40">
+              <span class="Hint">
+                242.03<span>M</span>
+                <div class="Hint__content">242,034,970.40</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint">
+              <div class="YT__icon Hint Hint--medium Hint--naked">
+                <div class="Hint-Icon"><i class="information-circle"></i></div>
+                <div class="Hint__content js-tooltip-html">
+                  <div class="Hint__p">
+                    <b class="Hint__header">Rewards</b>
+                    Distributed weekly at the protocol level
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/audius-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Secret">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/secret-network-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 64 64"
+                    fill="none"
+                  >
+                    <path
+                      d="M47.374 33.264c-2.713-3.304-7.04-5.39-12.702-7.508-4.593-1.714-7.77-3.162-9.46-5.08a5.368 5.368 0 0 1-1.272-2.464 5.469 5.469 0 0 1 .115-2.789 8.906 8.906 0 0 1 6.08-5.807 14.003 14.003 0 0 1 9.262 1.037 31.78 31.78 0 0 1 8.437 5.846l.077.076.065.062c.598.58.937.965.937.965l.86-.78 1.08-.996a32.964 32.964 0 0 0-5.337-4.708C40.52 7.544 32.513 3.836 23.621 7.53c-4.807 1.989-7.99 5.408-9.008 9.634a14.284 14.284 0 0 0 3.28 12.357c2.71 3.304 7.04 5.39 12.698 7.508 4.592 1.714 7.77 3.162 9.46 5.08a5.368 5.368 0 0 1 1.272 2.464 5.469 5.469 0 0 1-.115 2.79 8.91 8.91 0 0 1-6.106 5.81c-10.974 3.158-20.042-7.64-20.133-7.75L13 47.135a29.638 29.638 0 0 0 11.042 7.973A23.89 23.89 0 0 0 33.175 57a21.956 21.956 0 0 0 8.489-1.723c4.79-1.989 7.989-5.408 9.003-9.633a14.373 14.373 0 0 0-3.293-12.38Zm.778 11.72c-.795 3.308-3.367 6.037-7.241 7.706a10.648 10.648 0 0 0 2.765-4.597 8.175 8.175 0 0 0 .154-4.123 8.027 8.027 0 0 0-1.874-3.646c-2.03-2.32-5.513-3.96-10.48-5.793-4.561-1.705-9.128-3.699-11.609-6.724a11.738 11.738 0 0 1-2.748-10.005c.787-3.273 3.367-6.037 7.242-7.712a10.647 10.647 0 0 0-2.765 4.598 8.175 8.175 0 0 0-.154 4.122 8.025 8.025 0 0 0 1.874 3.647c2.03 2.33 5.516 3.946 10.483 5.802 4.562 1.705 9.129 3.698 11.61 6.723a11.735 11.735 0 0 1 2.743 10.006v-.004Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Secret
+                  <span class="Coin__abbr">SCRT</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="16.38">
+              16.4 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="53.86">
+              53.9%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="9.00">9.0%</div>
+            <div class="YT__cell YT__cell--lu">21 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="127536988.65">
+              <span class="Hint">
+                127.54<span>M</span>
+                <div class="Hint__content">127,536,988.65</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/secret-network-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Canto">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/canto-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M25.721 25.688h18.835v-7.574H25.721v7.574Zm0 0v13.887m0-13.887h-7.534v13.887h7.534m0 0h18.835v7.574H25.721v-7.574Zm26.37-29.036v42.922H19.443v-7.575H11.91V18.114h7.534v-7.575h32.648Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Canto
+                  <span class="Coin__abbr">CANTO</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="5.38">
+              5.4 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="21.59">
+              21.6%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="1.16">1.2%</div>
+            <div class="YT__cell YT__cell--lu">21 days</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="101145379.74">
+              <span class="Hint">
+                101.15<span>M</span>
+                <div class="Hint__content">101,145,379.74</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/canto-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Chainflip">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/chainflip-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 65"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m48.96 41.401.051-.025a15.287 15.287 0 0 0 2-2.275 15.688 15.688 0 0 0 2.948-9.149V11.344H34.86c-3.896 0-7.434 1.24-10.305 3.928l-2.538 2.352-6.87 6.435-.103.104M40.193 41.4V24.163H23.27m25.66 17.29v-.026H23.166V24.162H15.04a15.672 15.672 0 0 0-4.922 11.346l-.05 5.919-.027 4.445v8.322h19.176c3.871 0 7.64-1.447 10.51-4.11l.616-.568 6.332-5.918 1.743-1.654.462-.44.051-.051Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Chainflip
+                  <span class="Coin__abbr">FLIP</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ny" data-sort-value="17.76">
+              17.8 %
+            </div>
+            <div class="YT__cell YT__cell--sp" data-sort-value="38.10">
+              38.1%
+            </div>
+            <div class="YT__cell YT__cell--ip" data-sort-value="6.77">6.8%</div>
+            <div class="YT__cell YT__cell--lu">48 hours</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="70324831.50">
+              <span class="Hint">
+                70.32<span>M</span>
+                <div class="Hint__content">70,324,831.50</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--hint"></div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/chainflip-staking"
+                target="_blank"
+                class="Btn YT__cta modal-open"
+                title="Stake"
+                >Stake</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Yields Yields--soon Container">
+      <h2 class="Header">Coming Soon</h2>
+      <div class="Yields__content">
+        <div class="Yields__table YT YT--soon visible">
+          <div class="YT__row YT__header">
+            <div class="YT__cell YT__cell--p">Project</div>
+            <div class="YT__cell YT__cell--ml">Main-Net Launch</div>
+            <div class="YT__cell YT__cell--mc">Market Cap ($)</div>
+            <div class="YT__cell YT__cell--cta"></div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Metis">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/metis-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="32"
+                      cy="32"
+                      r="26.136"
+                      stroke="currentColor"
+                    ></circle>
+                    <path
+                      d="M27.26 40.865s-.72 2.264-.903 2.301c-.183.037-1.944-.419-2.735-.865-.703-.396-1.243-.371-1.924-.848-1.149-.803-.972-1.982-1.777-3.097-.53-.733-1.012-.851-1.549-1.663-.567-.859-.25-1.32-.787-2.198-.419-.687-1.625-.345-2.13-1.942-.37-1.17-.075-2.334.162-3.538.098-.497-.932-2.329-.215-3.506.523-.86 2.04-1.557 2.04-1.557s.38-.772.742-1.134c1.345-1.346 2.918-1.95 3.068-2.137.287-.356.338-1.25.939-1.764.49-.42 1.33-.53 1.422-.647.29-.373 1.103-.79 1.103-.79s.67-.652 1.36-1.073c1.5-.916 2.758-1.335 4.552-1.376 1.435-.034 3.683.527 3.683.527s5.598.157 7.284 1.708c.433.399 1.068.902 1.826 3.328.063.2 1.313 2.045 1.704 2.897.314.686-.356 2.636-.165 2.917a12.2 12.2 0 0 0 1.652 1.925c.8.746 2.064 1.23 2.182 1.513.104.25.066.421-.066.644-.157.264-1.579 1.19-1.709 1.393-.148.231.65 1.053.593 1.4-.056.334-.713.825-.702.95.014.181.644.678.644.852 0 .173-.475.61-.818 1.156.084.402.273 1.287.233 1.77-.05.602-.42 1.214-1.117 1.393-.784.202-2.107.337-4.325.426-1.813.074-1.523.967-2.578 4.483-.843 2.812-1.369 3.843-2.129 4.078-1.038.235-3.533.65-6.025.57-2.491-.08-5.283-1.085-5.475-1.306-.192-.222-.199-.594-.15-.955.048-.36 2.09-5.835 2.09-5.835Zm0 0s-2.249-2.54-2.563-4.71c-.445-3.08.158-4.223.326-4.287.17-.063 1.706 1.793 2.256 3.23.525 1.367 1.099 3.45 1.099 3.45m-1.118 2.317s2.377.344 4.74-.242c1.998-.496 3.325-2.54 3.266-2.667-.059-.129-1.342-.297-2.863-.146-2.228.22-4.025.738-4.025.738m0 0 1.563-3.601m0 0s-1.233-1.742-1.255-4.27c-.016-1.78.918-4.368 1.306-4.37.387-.002 1.063 1.818 1.306 3.114.245 1.312-.1 3.416-.1 3.416m-1.257 2.11s2.549.414 4.243.058c1.862-.392 4.074-2.415 4.024-2.617-.05-.201-1.92-.567-3.555-.526-1.404.035-3.456.975-3.456.975m0 0 1.58-2.34m0 0s-.068-2.718 1.725-4.821c1.823-2.138 3.98-2.954 4.265-2.784.285.17-.27 2.816-1.594 4.677-1.892 2.66-4.397 2.928-4.397 2.928Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Metis
+                  <span class="Coin__abbr">METIS</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ml">1H24</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="380430231.68">
+              <span class="Hint">
+                380.43<span>M</span>
+                <div class="Hint__content">380,430,231.68</div>
+              </span>
+            </div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/metis-staking"
+                target="_blank"
+                class="Btn YT__cta"
+                title="Notify"
+                >Notify</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Hyperlane">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/hyperlane-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M34.147 54.595a.704.704 0 0 1-.659-.94l1.578-4.517 4.391-12.577H28.829l-5.881 16.182a2.813 2.813 0 0 1-2.639 1.852h-8.603a.705.705 0 0 1-.659-.94l7.733-22.174-7.705-21.136a.705.705 0 0 1 .639-.94h8.623a2.812 2.812 0 0 1 2.625 1.824l5.772 15.508h10.767l-5.985-16.378a.701.701 0 0 1 .654-.954h8.594a2.811 2.811 0 0 1 2.591 1.773l.02.051 7.578 20.252.005.014a.692.692 0 0 1 0 .448l-.005.015-.03.092-.012.034-7.536 20.659a2.813 2.813 0 0 1-2.625 1.852h-8.603zm5.314-18.034h-.001l-5.972 17.108 5.973-17.108zM33.917 9.455a.705.705 0 0 0-.401.89l5.986 16.392-5.986-16.392a.691.691 0 0 1-.04-.294.707.707 0 0 1 .441-.596z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Hyperlane
+                  <span class="Coin__abbr">Hype</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ml">1Q24</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="">---</div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/hyperlane-staking"
+                target="_blank"
+                class="Btn YT__cta"
+                title="Notify"
+                >Notify</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Rarimo">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/rarimo-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 65"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M53.888 31.337H35.502c-5.944 0-6.083 4.119-6.048 8.77.035 4.653 1.512 8.179 6.048 8.179l-.001.001h13.762c3.092 0 4.64-1.774 4.64-5.323v-16.8c0-2.76-.653-4.99-1.96-6.685-1.306-1.695-3.213-2.544-5.72-2.544H35.197m2.626 26.025-.003.001m-27.724 5.657V29.861c0-4.53.958-7.82 2.877-9.868 1.918-2.048 4.827-3.073 8.733-3.073h7.925"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Rarimo
+                  <span class="Coin__abbr">RMO</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ml">1Q24</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="">---</div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/rarimo-staking"
+                target="_blank"
+                class="Btn YT__cta"
+                title="Notify"
+                >Notify</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="EigenLayer">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/eigenlayer-restaking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m34.67 32.057.038 10.815h10.735v10.642H13.145v-43.01h10.756v32.308h5.412V32.05l5.358.008Zm0 0 10.807-.007V21.255M34.671 32.057V15.844h-5.146v-5.358H40.1v10.77h5.377m0 0h5.374l.004-10.768H45.48l-.002 10.767Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  EigenLayer
+                  <span class="Coin__abbr">yETH</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ml">1H24</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="">---</div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/eigenlayer-restaking"
+                target="_blank"
+                class="Btn YT__cta"
+                title="Notify"
+                >Notify</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Shardeum">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/shardeum-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18.07 44.447-5.828 10.274H51.56l-5.73-10.274H18.07Zm0 0H6.513L26.172 9.28 32 19.65 18.07 44.447ZM37.73 9.28 32 19.553l13.93 24.796h11.557L37.73 9.279ZM31.9 29.728c3.458 0 6.224 2.865 6.224 6.421S35.359 42.57 31.9 42.57c-3.457 0-6.224-2.864-6.224-6.42 0-3.557 2.865-6.422 6.224-6.422Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Shardeum
+                  <span class="Coin__abbr">SHM</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ml">1H24</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="">---</div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/shardeum-staking"
+                target="_blank"
+                class="Btn YT__cta"
+                title="Notify"
+                >Notify</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Berachain">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/berachain-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 65 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.68 39.181.07-14.335m0 0H14.49m5.258 0h5.086m7.286 6.213s4.383.14 4.433 3.853c.034 2.534-1.65 3.436-3.162 3.505-2.375.11-5.155.07-5.155.07v-7.393m3.884-.035-3.884.035m3.884-.035s3.677-.382 3.677-3.193c0-2.152-1.062-2.656-2.062-2.846-1.821-.347-5.567-.14-5.567-.14l.068 6.214m20.544 4.04L45.455 24.88h-1.031l-3.179 10.253m7.536 0 1.313 4.047m-1.313-4.047h-7.536M39.99 39.18l1.255-4.047"
+                      opacity=".6"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Berachain
+                  <span class="Coin__abbr">BERA</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ml">1H24</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="">---</div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/berachain-staking"
+                target="_blank"
+                class="Btn YT__cta"
+                title="Notify"
+                >Notify</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Linea">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/linea-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.401 48.747h28.396v6.647H10.328V16.92h7.573v31.828h.5Zm35.27-32.994a7.147 7.147 0 1 1-7.145-7.147c3.946 0 7.145 3.2 7.145 7.147Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Linea
+                  <span class="Coin__abbr">LINEA</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ml">1H24</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="">---</div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/linea-staking"
+                target="_blank"
+                class="Btn YT__cta"
+                title="Notify"
+                >Notify</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Monad">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/monad-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 65 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m46.88 35.957-.482-.132.482.132c.136-.497.075-1.144-.077-1.832-.156-.707-.426-1.531-.776-2.42-.7-1.78-1.739-3.865-2.893-5.874-1.154-2.01-2.433-3.958-3.62-5.461-.592-.751-1.169-1.4-1.701-1.893-.52-.48-1.048-.859-1.546-.994-.497-.135-1.146-.075-1.837.076-.71.156-1.538.424-2.432.772-1.788.697-3.883 1.73-5.903 2.879-2.019 1.148-3.977 2.42-5.488 3.6-.755.59-1.407 1.164-1.902 1.694-.482.516-.864 1.043-1 1.54-.136.496-.075 1.143.077 1.831.156.707.426 1.531.776 2.42.7 1.78 1.739 3.865 2.893 5.874 1.154 2.01 2.433 3.958 3.62 5.461.592.751 1.168 1.4 1.701 1.893.52.48 1.048.859 1.546.994.497.135 1.146.075 1.837-.077.71-.155 1.538-.423 2.432-.771 1.788-.697 3.883-1.73 5.903-2.879 2.019-1.148 3.977-2.42 5.488-3.6.755-.59 1.407-1.164 1.902-1.694.482-.516.864-1.043 1-1.54ZM8.126 32c0-.791.247-1.769.727-2.893.478-1.12 1.175-2.355 2.041-3.655 1.733-2.599 4.126-5.42 6.746-8.027 2.621-2.607 5.456-4.988 8.069-6.713 1.306-.862 2.548-1.555 3.673-2.03 1.13-.479 2.114-.725 2.91-.725.797 0 1.78.246 2.91.724 1.126.476 2.368 1.169 3.674 2.031 2.613 1.725 5.448 4.106 8.069 6.713 2.62 2.607 5.013 5.428 6.746 8.027.866 1.3 1.563 2.536 2.04 3.655.481 1.124.728 2.102.728 2.893 0 .791-.247 1.768-.727 2.893-.478 1.12-1.175 2.355-2.041 3.654-1.733 2.6-4.126 5.42-6.747 8.028-2.62 2.607-5.455 4.988-8.068 6.713-1.306.862-2.548 1.555-3.673 2.03-1.13.479-2.114.725-2.91.725-.797 0-1.78-.246-2.91-.724-1.126-.476-2.368-1.169-3.674-2.031-2.613-1.725-5.448-4.106-8.069-6.713-2.62-2.608-5.013-5.428-6.746-8.028-.867-1.3-1.563-2.535-2.04-3.654-.481-1.125-.728-2.102-.728-2.893Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Monad
+                  <span class="Coin__abbr">MONAD</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ml">1H24</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="">---</div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/monad-staking"
+                target="_blank"
+                class="Btn YT__cta"
+                title="Notify"
+                >Notify</a
+              >
+            </div>
+          </div>
+          <div class="YT__row js-yields-table-row">
+            <div class="YT__cell YT__cell--p" data-sort-value="Babylon">
+              <a
+                class="Coin"
+                href="https://staking.staked.us/babylon-staking"
+                target="_blank"
+              >
+                <div class="Coin__img">
+                  <svg
+                    viewBox="0 0 64 64"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M14.538 26.55c2.307-7.258 9.101-12.517 17.123-12.517 9.922 0 17.965 8.044 17.965 17.967 0 9.218-6.94 16.815-15.88 17.848V44.19a12.385 12.385 0 0 0 8.952-6.597h-4.977a8.226 8.226 0 0 1-6.058 2.65A8.245 8.245 0 0 1 23.417 32a8.245 8.245 0 0 1 8.246-8.242 8.229 8.229 0 0 1 6.19 2.796h4.918a12.37 12.37 0 0 0-11.108-6.918c-6.831 0-12.37 5.536-12.37 12.364 0 6.127 4.46 11.214 10.312 12.194v5.657c-7.058-.805-12.873-5.699-15.02-12.255H10.29c2.477 9.491 11.107 16.495 21.373 16.495 12.198 0 22.087-9.89 22.087-22.09 0-12.201-9.889-22.092-22.088-22.092-10.318 0-18.984 7.077-21.41 16.642h4.287Z"
+                      stroke="currentColor"
+                    ></path>
+                    <path
+                      d="M36.184 31.99a4.531 4.531 0 1 1-9.063 0 4.531 4.531 0 0 1 9.063 0Z"
+                      stroke="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="Coin__text">
+                  Babylon
+                  <span class="Coin__abbr">BBN</span>
+                </div>
+              </a>
+            </div>
+            <div class="YT__cell YT__cell--ml">2H24</div>
+            <div class="YT__cell YT__cell--mc" data-sort-value="">---</div>
+            <div class="YT__cell YT__cell--cta">
+              <a
+                href="https://staking.staked.us/babylon-staking"
+                target="_blank"
+                class="Btn YT__cta"
+                title="Notify"
+                >Notify</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Yields__api Container">
+      <i class="code"></i>
+      <div>
+        Access all of Staked’s functionality programmatically - staking
+        delegation, rewards data and rewards reporting -
+        <a href="https://staked.gitbook.io/staked/" target="_blank"
+          >using the Staked API →</a
+        >
+      </div>
+    </section>
+    <footer class="Footer Container">
+      <div class="Footer__logo">Staked</div>
+      <div class="Footer__menu">
+        <div>
+          <h4 class="Footer__subheader">Resources</h4>
+          <ul>
+            <li>
+              <a href="https://staked.gitbook.io/staked/" target="_blank"
+                >Developer API</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Stakedllc/" target="_blank">Github</a>
+            </li>
+            <li>
+              <a href="https://staked.zendesk.com/hc/" target="_blank"
+                >Support</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="Footer__subheader">Corporate</h4>
+          <ul>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/terms/">Terms of Service</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/governance/">Governance</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="Footer__subheader">Staking</h4>
+          <div class="Footer__multi-cols">
+            <ul>
+              <li>
+                <a
+                  href="https://staking.staked.us/ethereum-staking-options"
+                  target="_blank"
+                  >Ethereum Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/cardano-staking"
+                  target="_blank"
+                  >Cardano Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/solana-staking"
+                  target="_blank"
+                  >Solana Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/polkadot-staking"
+                  target="_blank"
+                  >Polkadot Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/cosmos-staking"
+                  target="_blank"
+                  >Cosmos Staking</a
+                >
+              </li>
+              <li>
+                <a href="https://staking.staked.us/tron-staking" target="_blank"
+                  >Tron Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/matic-staking"
+                  target="_blank"
+                  >Polygon Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/tezos-staking"
+                  target="_blank"
+                  >Tezos Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/elrond-staking"
+                  target="_blank"
+                  >Elrond Staking</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="https://staking.staked.us/mina-staking" target="_blank"
+                  >Mina Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/kusama-staking"
+                  target="_blank"
+                  >Kusama Staking</a
+                >
+              </li>
+              <li>
+                <a href="https://staking.staked.us/near-staking" target="_blank"
+                  >NEAR Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/helium-staking"
+                  target="_blank"
+                  >Helium Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/graph-staking"
+                  target="_blank"
+                  >The Graph Staking</a
+                >
+              </li>
+              <li>
+                <a href="https://staking.staked.us/flow-staking" target="_blank"
+                  >Flow Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/livepeer-staking"
+                  target="_blank"
+                  >Livepeer Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/injective-staking"
+                  target="_blank"
+                  >Injective Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/audius-staking"
+                  target="_blank"
+                  >Audius Staking</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://staking.staked.us/skale-staking"
+                  target="_blank"
+                  >Skale Staking</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="Footer__footer">
+        <div class="Footer__copyright">Staked, a Kraken Company</div>
+        <div class="Footer__social">
+          <a
+            title="Events"
+            href="https://staking.staked.us/events"
+            target="_blank"
+          >
+            <i class="calendar"></i>Events</a
+          >
+          <a title="Blog" href="https://blog.staked.us/blog" target="_blank">
+            <i class="pencil-alt"></i>Blog</a
+          >
+          <a
+            title="Staked Github"
+            href="https://github.com/Stakedllc/"
+            target="_blank"
+          >
+            <i class="github"></i>Github</a
+          >
+          <a
+            title="Staked Twitter"
+            href="https://twitter.com/staked_us/"
+            target="_blank"
+          >
+            <i class="twitter"></i>Twitter</a
+          >
+          <a
+            title="Join Chat"
+            href="https://discord.gg/ddHep6E"
+            target="_blank"
+          >
+            <i class="discord"></i>Discord</a
+          >
+        </div>
+        <div class="Footer__buttons">
+          <a href="/v/login/" class="Btn Btn--subtle modal-open" title="Login">Login</a>
+          <a href="/v/register/" class="Btn modal-open" title="Create Account"
+            >Create Account</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- <div class="py-4 relative w-52">
+      <div class="progress-container bg-violet-900 rounded-lg w-full">
+      </div>
+      <div class="progress rounded-full bg-violet-900"></div>
+    </div> -->
+
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="hidden inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+      data-twe-toggle="modal"
+      data-twe-target="#exampleModalFullscreen"
+      id="full-scr-btn"
+    >
+      Launch demo modal full screen
+    </button>
+
+    <!-- Modal -->
+    <div
+      data-twe-modal-init
+      class="fixed left-0 top-0 z-[1055] hidden h-full w-full bg-white overflow-y-auto overflow-x-hidden outline-none"
+      id="exampleModalFullscreen"
+      tabindex="-1"
+      aria-labelledby="exampleModalFullscreenLabel"
+      aria-hidden="true"
+    >
+      <div
+        data-twe-modal-dialog-ref
+        class="pointer-events-none relative w-auto translate-y-[-50px] opacity-0 transition-all duration-300 ease-in-out min-[0px]:m-0 min-[0px]:h-full min-[0px]:max-w-none"
+      >
+        <div
+          class="pointer-events-auto relative pt-7 flex w-full flex-col rounded-md bg-white bg-clip-padding text-current shadow-4 outline-none dark:bg-surface-dark min-[0px]:h-full min-[0px]:rounded-none min-[0px]:border-0"
+        >
+          <div
+            class="hidden flex flex-shrink-0 items-center justify-between rounded-t-md border-b-2 border-neutral-100 p-4 dark:border-white/10 min-[0px]:rounded-none"
+          >
+            <!-- Modal title -->
+            <h5
+              class="text-xl font-medium leading-normal text-surface"
+              id="exampleModalFullscreenLabel"
+            >
+              Modal title
+            </h5>
+            <!-- Close button -->
+            <button
+              type="button"
+              class="box-content rounded-none border-none text-neutral-500 hover:text-neutral-800 hover:no-underline focus:text-neutral-800 focus:opacity-100 focus:shadow-none focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+              data-twe-modal-dismiss
+              aria-label="Close"
+            >
+              <span class="[&>svg]:h-6 [&>svg]:w-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div
+            class="flex flex-col justify-center items-center space-y-3 bg-white"
+          >
+            <p class="font-bold leading-6 pt-16">Select a Wallet</p>
+            <div class="py-4 relative w-52">
+              <div
+                class="progress-container bg-violet-900 rounded-lg w-full"
+              ></div>
+              <div class="progress rounded-full bg-violet-900"></div>
+            </div>
+            <div class="flex container flex-col space-y-2">
+              <input
+                id="wallet-search"
+                type="text"
+                class="p-2 w-full outline outline-1 outline-gray-400 rounded-md"
+                placeholder="Search wallets..."
+              />
+              <button
+                class="text-center w-full text-white bg-blue-500 p-2 rounded-md"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+          <div
+            id="modal-wallets"
+            class="relative flex flex-col h-full justify-start space-y-2 items-center p-4 min-[0px]:overflow-y-auto bg-white"
+          ></div>
+
+          <!-- Modal footer -->
+          <div
+            class="mt-auto bg-white flex flex-shrink-0 flex-wrap items-center justify-end rounded-b-md border-t-2 border-neutral-100 p-4 dark:border-white/10 min-[0px]:rounded-none"
+          >
+            <button
+              type="button"
+              class="inline-block rounded bg-blue-500 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-primary-accent-200 focus:bg-primary-accent-200 focus:outline-none focus:ring-0 active:bg-primary-accent-200 dark:bg-primary-300 dark:hover:bg-primary-400 dark:focus:bg-primary-400 dark:active:bg-primary-400"
+              data-twe-modal-dismiss
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-2">
+      <!-- Button trigger vertically centered modal-->
+      <button
+        type="button"
+        id="vert-click"
+        class="hidden inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+        data-twe-toggle="modal"
+        data-twe-target="#walletclick"
+      >
+        Vertically centered modal
+      </button>
+    </div>
+
+    <!--Vertically centered modal-->
+    <div
+      data-twe-modal-init
+      class="fixed left-0 top-0 z-[2055] hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none"
+      id="walletclick"
+      tabindex="-1"
+      aria-labelledby="walletclickTitle"
+      aria-modal="true"
+      role="dialog"
+    >
+      <div
+        data-twe-modal-dialog-ref
+        class="pointer-events-none relative flex min-h-[calc(100%-1rem)] rounded-xl w-10/12 mx-auto translate-y-[-50px] items-center opacity-0 transition-all duration-300 ease-in-out min-[576px]:mx-auto min-[576px]:mt-7 min-[576px]:min-h-[calc(100%-3.5rem)] min-[576px]:max-w-[500px]"
+      >
+        <div
+          class="pointer-events-auto relative flex w-full flex-col rounded-md border-none bg-transparent bg-clip-padding text-current shadow-4 outline-none"
+        >
+          <div
+            class="flex flex-shrink-0 items-center justify-end p-4 relative rounded-t-xl bg-white"
+          >
+            <!-- Close button -->
+            <button
+              type="button"
+              class="absolute rounded-full box-content p-2 bg-white shadow-gray-700 shadow-2xl -top-2 -right-2 border-none text-gray-950 focus:outline-none"
+              data-twe-modal-dismiss
+              aria-label="Close"
+            >
+              <span class="[&>svg]:h-4 [&>svg]:w-4 bg-transparent">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div
+            class="relative flex flex-col justify-center items-center space-y-3 bg-white py-3 rounded-b-xl"
+            id="modal-wallet-click"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="hidden fixed inset-0 z-[3000] bg-black opacity-10"
+      id="ovly-1"
+    ></div>
+
+    <div
+      class="hidden fixed inset-0 z-[3000] flex items-center justify-center"
+      id="ovly-2"
+    >
+      <div
+        class="absolute top-1/3 left-1/2 h-10 w-10 animate-[spinner-grow_0.75s_linear_infinite] rounded-full bg-current align-[-0.125em] text-violet-700 opacity-0 motion-reduce:animate-[spinner-grow_1.5s_linear_infinite]"
+        role="status"
+      >
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+          >Loading...</span
+        >
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="./node_modules/tw-elements/js/tw-elements.umd.min.js"
+    ></script>
+
+    <script type="module" src="./src/tw.js"></script>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
